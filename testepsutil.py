@@ -29,3 +29,6 @@ print("Percentual de Disco Usado:", disco.percent)
 
 dic_interfaces = psutil.net_if_addrs()
 print(dic_interfaces['eth0'][1].address)
+
+ssh-keygen -t rsa -b 4096 -C jean.oliveira@al.infnet.edu.br  
+ssh-add ~/.ssh/id_rsa  
